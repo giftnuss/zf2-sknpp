@@ -1,0 +1,27 @@
+
+Sknpp - Zend Framework2 Module
+==============================
+
+version - 0.1.1
+
+View Helper
+-----------
+
+AutoCss - create stylesheet links for used module, controller and action
+
+    <?php echo $this->autoCss(); ?>
+
+If the css file is availble it renders for example to:
+
+   <link href="/css/knowledge.css" media="screen" rel="stylesheet" type="text/css" />
+   <link href="/css/knowledge/index.css" media="screen" rel="stylesheet" type="text/css" />
+   <link href="/css/knowledge/index/index.css" media="screen" rel="stylesheet" type="text/css" />
+
+
+WARNING - This software is in a early stage of development.
+
+Copyright (c) 2013, Sebastian Knapp
+
+This software is licensed under the terms of the Artistic License 2.0
+
+http://opensource.org/licenses/Artistic-2.0  
